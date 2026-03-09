@@ -14,3 +14,24 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "prod"
+
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank Cards"
+  contactDetails:
+    name: "Shubham Dev"
+    email: "shubham@dev"
+  onCallSupport:
+    - (111)111-1234
+    - (111)111-5678
+
