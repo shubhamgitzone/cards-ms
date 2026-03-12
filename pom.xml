@@ -115,7 +115,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>charpss/${project.artifactId}:s4</image>
+						<image>charpss/${project.artifactId}:s6</image>
 					</to>
 				</configuration>
 			</plugin>
